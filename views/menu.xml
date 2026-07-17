@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="menu_supplies"
+               name="office supplies"
+               sequence="10"/>
+    
+    <menuitem id="supplies"
+               name="supplies"
+               parent="menu_supplies"
+               action="office_items_action"
+               sequence="1"/>
+</odoo>
