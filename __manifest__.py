@@ -9,6 +9,7 @@
     'depends' : [],
     'data' : [
         'security/ir.model.access.csv',
+        'wizard/message_wizard_view.xml',
         'views/items_view.xml',
         'views/menu.xml',
     ],

@@ -37,6 +37,9 @@
         <field name="model">office.items</field>
         <field name="arch" type="xml">
             <form>
+                <header>
+                    <button name="action_open_message_wizard" string="Send Message" type="object"/>
+                </header>
                 <sheet>
                     <group>
                         <group>
