@@ -10,7 +10,8 @@ class MessageWizard(models.TransientModel):
         return {
             'type': 'ir.actions.client',
             'tag': 'display_notification',
-            'params': {
+            'params':
+                {
                 'title': 'Success',
                 'message': 'Message submitted successfully!',
                 'type': 'success',

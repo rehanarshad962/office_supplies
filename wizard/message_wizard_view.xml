@@ -5,17 +5,12 @@
         <field name="model">message.wizard</field>
         <field name="arch" type="xml">
             <form string="Send Message">
-
                 <group>
                     <field name="message"/>
                 </group>
                 <footer>
-                    <button name="action_submit"
-                    string="Submit"
-                    type="object"
-                    class="btn-primary"/>
-                    <button string="Cancel"
-                    special="cancel"/>
+                    <button name="action_submit" string="Submit" type="object" class="btn-primary"/>
+                    <button string="Cancel" special="cancel"/>
                 </footer>
             </form>
         </field>
